@@ -2,8 +2,11 @@
 
 A Java project to verify the content and structure of `purchase_orders.xls` using Cucumber and Apache POI.
 
-## Feature
+## Continuous Integration (CI)
 
+This project is integrated with GitHub Actions for Continuous Integration. Every push or pull request to the `main` branch triggers the build and verification process. For detailed configuration, refer to the `.github/workflows` directory in the repository.
+
+## Feature
 Verification of `purchase_orders.xls` content.
 
 ```gherkin
